@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Connexion</title>
+</head>
+<body>
+    <header>
+    <h1>TimeOut</h1>
+    <h2>Votre plateforme centralisée : employés consultez vos heures,<br> administrateurs gérez-les en un clic!</h2>
+    </header>
+    <form id="from_connection" action="authentification.php" method="post">
+        <label class="lbl_from_index" for="email">Adresse E-mail :</label><br><br>
+        <input class="inpt_from_index" placeholder="Adresse e-mail" type="email" id="email" name="email"
+            required><br><br>
+
+        <label class="lbl_from_index" for="birthdate">Date de Naissance :</label><br><br>
+        <input class="inpt_from_index" type="date" id="birthdate" name="birthdate" required><br><br>
+
+        <input type="submit" class="button_index" value="Se Connecter">
+    </form>
+</body>
+</html>
